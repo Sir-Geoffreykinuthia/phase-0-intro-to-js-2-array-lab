@@ -3,7 +3,7 @@ describe('index.js', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
       expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
     });
-  });
+  });   
 
   describe('Array functions', function () {
     beforeEach(function () {
